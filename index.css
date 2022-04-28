@@ -7,7 +7,7 @@ h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   font-size: 60px;
-  align-items: center;
+  text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
@@ -26,50 +26,6 @@ p {
 
 img {
   border-radius: 10px
-}
-
-.content-row {
-  display: flex;
-}
-
-.content-row div {
-  margin: 20px
-}
-
-.container {
-  margin: 0 auto;
-  width: 605px;
-}
-
-.container header nav a {
-  margin: 0 10px;
-  border: 1px solid lightgray;
-  padding: 20px;
-  display: inline-block;
-  border-radius: 20px;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 20px;
-  background: #F87B99
-}
-
-.container header nav a:hover {
-  background: white;
-  color: pink;
-}
-
-#about {
-  margin-top: 20px;
-}
-
-.contact-section {
-  border-top: 1px dashed black;
-  padding: 20px 0;
-}
-
-.contact-section h2 {
-  padding: 0;
-  margin: 0 0 10px 0;
 }
 
 address {
@@ -112,5 +68,69 @@ footer a:hover {
 
 footer .footer-content .copyright {
   padding: 20px 0;
-   align-items: center;
+  text-align: center;
+}
+
+.content-row {
+  display: flex;
+}
+
+.content-row div {
+  margin: 20px
+}
+
+.container {
+  margin: 0 auto;
+  width: 605px;
+}
+
+.container header nav a {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: #F87B99;
+}
+
+.container header nav a:hover {
+  background: white;
+  color: pink;
+}
+
+.contact-section {
+  border-top: 1px dashed black;
+  padding: 20px 0;
+}
+
+.contact-section h2 {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  align-items: center;
+}
+
+#about {
+  margin-top: 20px;
+  width: 605px;
+}
+
+#content div {
+  flex-direction: column;
+  display: flex
+}
+
+#content .container {
+  flex-flow: row nowrap;
+  align-items: center;
 }
